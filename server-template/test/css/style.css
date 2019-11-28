@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+* {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.automotive {
+    border: 1px solid #efefef;
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 250px;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li.slider-item {
+    width: 200px;
+    height: 120px;
+}
+
+/* header */
+.logo-container {
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    background: #fff;
+    padding: 15px 10px 10px 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.label-container {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+    background-color: #ffac2a;
+}
+
+.label-container span {
+    text-transform: lowercase;
+    padding: 5px 8px;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #fff;
+}
+
+/* image */
+.image-wrapper {
+    margin-top: 30px;
+}
+
+/* content */
+
+.teaser-title {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+
+.btn {
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    
+}
+
+.btn-automotive {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.btn-color {
+    background-color: #f37022;
+}
+
+
+/* Slick CSS */
+.slick-arrow {
+    position: absolute;
+    top: 110px;
+    z-index: 99;
+}
+
+.slick-next {
+    right: 0;
+}
+.slick-prev {
+    left: 0;
+}
